@@ -1,0 +1,84 @@
+body {
+font-family: 'Segoe UI', sans-serif;
+
+margin: 0;
+padding: 0;
+color: #4e342e;
+}
+header {
+  background-color: #3e2c1c;
+  color: white;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: lowercase;
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  background: url('sofa.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.contact-box {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 8px 16px ;
+  max-width: 400px;
+}
+
+.contact-box h2 {
+  color: #3e2c1c;
+  margin-bottom: 10px;
+}
+
+.contact-box p {
+  color: #5c4432;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.whatsapp-btn, .instagram-btn {
+  display: block;
+  text-decoration: none;
+  padding: 12px 0;
+  margin: 10px 0;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.whatsapp-btn {
+  background-color:wheat;
+  color: #3e2c1c;
+}
+
+.instagram-btn {
+  background-color: #3e2c1c;
+  color: wheat;
+}
+ footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #efebe9;
+            color: #5d4037;
+            margin-top: 5px;
+        }
